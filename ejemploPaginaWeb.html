@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Página WEB de naturaleza</h1>
+    </header>
+    <nav>
+        <ol>
+            <li>Archivo</li>
+            <li>Editar</li>
+            <li>Ajustes</li>
+            <li>Ver</li>
+            <li>Ayuda</li>
+        </ol>
+    </nav>
+    <div>
+        <section>
+            <article>
+                <h2>Aves</h2>
+                <p>Las aves son animales vertebrados, de sangre caliente, que caminan, saltan o se mantienen solo sobre las extremidades posteriores,3​ mientras que las extremidades anteriores han evolucionado hasta convertirse en alas que, al igual que muchas otras características anatómicas únicas, les permiten, en la mayoría de los casos, volar, si bien no todas vuelan. Tienen el cuerpo cubierto de plumas y, las aves sensu stricto, un pico córneo sin dientes. Para reproducirse ponen huevos que incuban hasta su eclosión.</p>
+            </article>
+            <article>
+                <h2>Mamíferos</h2>
+                <p>Los mamíferos (Mammalia) son una clase de animales vertebrados amniotas homeotermos (de sangre caliente) que poseen glándulas mamarias productoras de leche con las que alimentan a las crías. La mayoría son vivíparos (con la excepción de los monotremas: ornitorrinco y equidnas). Se trata de un taxón monofilético; es decir, todos descienden de un antepasado común que se remonta probablemente a finales del Triásico, hace más de 200 millones de años. Pertenecen al clado sinápsidos, que incluye a los mal llamados reptiles mamiferoides, un grupo de sinápsidos que no eran reptiles ni tampoco mamíferos, aunque estaban más relacionados con estos últimos que con los primeros,1​2​ como los pelicosaurios y los cinodontos. Se conocen unas 5486 especies actuales,3​ de las cuales 5 son monotrematas,4​ 272 son marsupiales5​ y el resto, 5209, son placentarios.</p>
+            </article>
+            <article>
+                <h2>Reptiles</h2>
+                <p>Los reptiles (Reptilia, del latín reptĭlis -que se arrastra-),1​2​ son un grupo de animales vertebrados amniotas provistos de escamas epidérmicas de queratina. Se trata de una clase propia de la taxonomía tradicional, pero de acuerdo con la sistemática cladística actual, es un grupo parafilético, es decir, que no incluye a todos los descendientes del ancestro común (pues deja fuera a las aves y los mamíferos, por lo que no tiene valor filogenético desde el punto de vista de la biología).3​ Aunque una redefinición moderna de Reptilia es la que incluye a las aves, pero excluye a los sinápsidos, que condujeron a los mamíferos, ya que ha quedado demostrado que no eran reptiles.4​</p>
+            </article>
+        </section>
+    </div>
+    <aside>
+        <form action="pagina2.html" method="get">
+            <fieldset>
+                <div>
+                    <label>Nombre:<input type="text" name="nombre"/></label>
+                    <label>Apellidos:<input type="text" name="apellido"/></label>
+                    <label>Correo:<input required type="email" name="correo" value="prueba@pruebas.com"/></label>                
+                    <label>Contraseña:<input type="password" name="contraseña"/></label>
+                    <label>Interés en:</label>
+                    <select>
+                        <option value="aves">Aves</option>
+                        <option value="mammal">Mamíferos</option>
+                        <option value="reptiles">Reptiles</option>
+                    </select>
+                    <legend>Formato deseado:</legend>
+                    <label>pdf<input type="radio" name="formato" value="pdf"/></label>
+                    <label>txt<input type="radio" name="formato" value="txt"/></label>
+                    <label>word<input type="radio" name="formato" value="word"/></label>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+                <button type="button">Click me</button>
+            </fieldset>
+        </form>
+    </aside>
+    <footer><p>Página WEB de ejemplo de Pedro Fdez.</p></footer>
+</body>
+</html>
