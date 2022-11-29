@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#container{
+   
+    /* comentario width: 70%; */
+    margin: 0px auto;
+
+}
+header{
+    text-align: center;
+    font-size:larger;
+    line-height: 100px;
+    background-color: rgb(4, 4, 89);
+    color: white;
+    height: 100px; 
+}
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px black;
+}
+nav ol li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear:both
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: lightsalmon;
+    padding: 10px;
+    min-height: 600px;
+}
+
+#seccion1{
+    float: left;
+    width: calc(80% - 80px);
+    background: lightgray;
+    padding: 40px;
+    min-height: 600px;
+}
+
+img{
+    float: left;
+    max-width:200px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+article{
+    float: left;
+    color:black;    
+    margin-bottom: 20px;    
+    text-align: justify;
+}   
+footer{
+    background-color: rgb(4, 4, 89);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+#susripcion
