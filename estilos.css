@@ -1,8 +1,47 @@
+/* fonts google https://fonts.google.com/  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face{
+    font-family: "Alexandria";
+    src: local("./fonts/Alexandria-VariableFont_wght.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+
 }
+
+.static{
+    width: 400px;
+    height: 200px;
+    position: static;
+    background-color: rgb(222, 135, 135);
+    background-image: url(./imagenes/aves.jfif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.absolute{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;    
+    top: 10%;
+}
+
+.fixed{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color:yellow;    
+}
+
+
+
 #container{
    
     /* comentario width: 70%; */
@@ -15,7 +54,7 @@ header{
     line-height: 100px;
     background-color: rgb(4, 4, 89);
     color: white;
-    height: 100px; 
+    height: 100px;   
 }
 nav{
     background: lightblue;
@@ -33,11 +72,15 @@ nav ol li{
 }
 
 aside{
-    float: left;
+   
+    display: inline-block;
     width: calc(20% - 20px);
     background-color: lightsalmon;
-    padding: 10px;
-    min-height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40;
+    padding-top: 40;
+    min-height: 780px;
 }
 
 #seccion1{
@@ -45,7 +88,7 @@ aside{
     width: calc(80% - 80px);
     background: lightgray;
     padding: 40px;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 img{
