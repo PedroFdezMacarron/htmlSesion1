@@ -9,108 +9,102 @@
 
 */
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.static{
-    width: 400px;
-    height: 200px;
-    position: static;
-    background-color: rgb(222, 135, 135);
-    background-image: url(./imagenes/aves.jfif);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+.static {
+  width: 400px;
+  height: 200px;
+  position: static;
+  background-color: rgb(222, 135, 135);
+  background-image: url(./imagenes/aves.jfif);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
-.absolute{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    background-color: green;    
-    top: 10%;
+.absolute {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: green;
+  top: 10%;
 }
 
-.fixed{
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    background-color:yellow;    
+.fixed {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background-color: yellow;
 }
 
-
-
-#container{
-   
-    /* comentario width: 70%; */
-    margin: 0px auto;
-
+#container {
+  /* comentario width: 70%; */
+  margin: 0px auto;
 }
-header{
-    text-align: center;
-    font-size:larger;
-    line-height: 100px;
-    background-color: rgb(4, 4, 89);
-    color: white;
-    height: 100px;   
+header {
+  text-align: center;
+  font-size: larger;
+  line-height: 100px;
+  background-color: rgb(4, 4, 89);
+  color: white;
+  height: 100px;
 }
-nav{
-    background: lightblue;
-    height: 50px;
-    border-bottom: 1px black;
+nav {
+  background: lightblue;
+  height: 50px;
+  border-bottom: 1px black;
 }
-nav ol li{
-    float: left;
-    list-style: none;
-    margin: 10px;
-    line-height: 30px;
+nav ol li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+  line-height: 30px;
 }
-.clearfix{
-    clear:both
+.clearfix {
+  clear: both;
 }
 
-aside{
-   
-    display: inline-block;
-    width: calc(20% - 20px);
-    background-color: lightsalmon;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 40;
-    padding-top: 40;
-    min-height: 780px;
+aside {
+  display: inline-block;
+  width: calc(20% - 20px);
+  background-color: lightsalmon;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40;
+  padding-top: 40;
+  min-height: 780px;
 }
 
-#seccion1{
-    float: left;
-    width: calc(80% - 80px);
-    background: lightgray;
-    padding: 40px;
-    min-height: 700px;
+#seccion1 {
+  float: left;
+  width: calc(80% - 80px);
+  background: lightgray;
+  padding: 40px;
+  min-height: 700px;
 }
 
-img{
-    float: left;
-    max-width:200px;
-    padding-left: 10px;
-    padding-right: 10px; 
+img {
+  float: left;
+  max-width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-article{
-    float: left;
-    color:black;    
-    margin-bottom: 20px;    
-    text-align: justify;
-}   
-footer{
-    background-color: rgb(4, 4, 89);
-    color: white;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
+article {
+  float: left;
+  color: black;
+  margin-bottom: 20px;
+  text-align: justify;
 }
-#susripcion
+footer {
+  background-color: rgb(4, 4, 89);
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+#susripcion;
