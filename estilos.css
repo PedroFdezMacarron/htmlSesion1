@@ -1,4 +1,4 @@
-/* fonts google https://fonts.google.com/  */
+/* fonts google https://fonts.google.com/  
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -6,6 +6,8 @@
     font-family: "Alexandria";
     src: local("./fonts/Alexandria-VariableFont_wght.ttf");
 }
+
+*/
 
 *{
     margin: 0;
